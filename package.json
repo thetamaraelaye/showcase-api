@@ -1,0 +1,34 @@
+{
+  "name": "showcase-api",
+  "version": "1.0.0",
+  "description": "A showcase API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thetamaraelaye/showcase-api.git"
+  },
+  "keywords": [
+    "showcase",
+    "events"
+  ],
+  "author": "Tamara Elaye|Ada-Backend-Engineering-Track",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thetamaraelaye/showcase-api/issues"
+  },
+  "homepage": "https://github.com/thetamaraelaye/showcase-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
